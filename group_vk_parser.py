@@ -1,3 +1,4 @@
+# https://github.com/Seykes
 from time import sleep
 import requests
 import json
