@@ -5,13 +5,13 @@ import json
 import telebot
 import csv
 
-bot = telebot.TeleBot('token')  # Получить в BotFather
+bot = telebot.TeleBot('5621091656:AAFcBnvNHQqrGDJTq3UN4ElWVEXLFxHf_ng')  # Получить в BotFather
 group_id = ''
 count = ''
 
 def main():
     # Токен для запросов, получаем при создание Standalone приложение ВК.
-    access_token = 'token'
+    access_token = 'vk1.a.774_ar66xzVFkboNCLLEwVz9fyI9YLPMtaCU1mYSH4gjNrRpMigWY5MpbvCyfINdd-jzpON-F63Ndn54Wp1YihYFv9qACdbKkPRk3a9AyOew29J_vA7_sAgwFwXrh56uwb7ZQgwnmVrtvdQDZJ-teakQVXxgDMx9FUEbTCw4xz8myNwf2hp307XsklYAflKgQWf3y6ja1SKYclStej9vOg'
     version = '5.92'  # Версия запросов в ВК
     offset = 0
     all_posts = []
